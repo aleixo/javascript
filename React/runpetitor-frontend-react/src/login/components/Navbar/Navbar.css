@@ -1,0 +1,122 @@
+.phone {
+  margin-top: 130px;
+  float: left;
+  width: 100%;
+}
+.phone img {
+  float:right;
+  margin-right: 112px;
+}
+.app_link {
+  float: left;
+  margin-top: 288px;
+  width: 378px;
+  margin-left: 17px;
+}
+.app_link .title {
+  font-size: 47px;
+  font-weight: 600;
+  font-family: LatoWebBold;
+}
+.app_link .desc {
+  font-size: 17px;
+  color: #8190a5;
+  font-family: LatoWeb;
+  line-height: 27px;
+  margin-bottom: 22px;
+}
+
+.store_links {
+  margin:0;
+}
+.ios_link {
+  width:40%;
+  float: left;
+  margin-right: 6%;
+}
+.google_link {
+  width:40%;
+}
+.about {
+  padding-top:100px;
+  height:700px;
+  text-align:center;
+}
+.feature {
+  padding-top:100px;
+  height:700px;
+  text-align:center;
+}
+.toggle_menu ul {
+  background: #29363d;
+}
+.app-header.navbar {
+  background-color: transparent;
+  border: 0px;
+  padding: 57px 144px 0 46px;
+  font-family: LatoWebBold;
+  font-size: 18px;
+}
+.px-3 {
+  padding:0 10px;
+}
+.app-header.navbar .navbar-nav {
+  padding-bottom:5px;
+}
+.app-header.navbar .navbar-brand {
+  border:0px;
+}
+.sep {
+  width:50%;
+  float:left;
+}
+
+//responsive menu bar
+@media (min-width: 991px) {
+  .sidebar
+  {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    margin-left: -220px;
+  }
+}
+@media(max-width:1024px)
+{
+  .phone img
+  {
+    width:70%;
+    display:block;
+    margin: 0 auto;
+    float:none;
+  }
+  .app_link
+  {
+    width: 380px;
+    margin-left:0
+  }
+}
+
+@media (max-width: 991px)
+{
+  .toggle_menu{
+    display:"hidden";
+  }
+  .app-header.navbar
+  {
+    padding:0;
+  }
+}
+@media(max-width:768px)
+{
+  .sep{
+    width:100%;
+  }
+  .app_link
+  {
+    float:none;
+    margin:100px auto;
+    display:block;
+  }
+
+}
