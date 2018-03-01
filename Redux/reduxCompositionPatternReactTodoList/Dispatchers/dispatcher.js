@@ -1,6 +1,6 @@
 class TodoDispatcher {
     constructor() {
-        this.store = store;    
+        this.store = todosAppStore;
         this.nextTodoId = 0;
     }
 
