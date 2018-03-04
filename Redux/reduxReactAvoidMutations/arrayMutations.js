@@ -75,4 +75,3 @@ const testIncrementCounter = () => {
 testAddCounter();
 testRemoveCounter();
 testIncrementCounter();
-console.log('All tests passed');

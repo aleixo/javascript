@@ -60,7 +60,3 @@ const testToggleTodo = () => {
         todosReducer.todos(stateBefore, action)
     ).toEqual(stateAfter);
 }
-
-testAddTodo();
-testToggleTodo();
-console.log('All tests passed');

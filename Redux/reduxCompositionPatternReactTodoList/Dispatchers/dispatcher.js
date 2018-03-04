@@ -1,11 +1,10 @@
 class TodoDispatcher {
-    constructor() {
+    constructor(todosAppStore) {
         this.store = todosAppStore;
-        this.nextTodoId = 0;
+        this.nextTodoId = 0;             
     }
 
-    addTodo(todoText) {     
-        console.log('NEW TODO', todoText)          
+    addTodo(todoText) {      
         this.store.dispatch({
             type: 'ADD_TODO',
             text: todoText  || '',
@@ -13,10 +12,17 @@ class TodoDispatcher {
         });        
     }
 
-    toggleTodo(todoId) {        
+    toggleTodo(todoId) {                
         this.store.dispatch({
-            type: 'TOGGLE TODO',            
-            id: this.todoId
+            type: 'TOGGLE_TODO',            
+            id: todoId
+        });
+    }
+
+    toggleVisibilityFilter(filter) {        
+        this.store.dispatch({
+            type: 'SET_VISIBILITY_FILTER',            
+            filter
         });
     }
 }

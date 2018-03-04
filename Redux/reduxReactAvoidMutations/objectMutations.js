@@ -30,6 +30,3 @@ deepFreeze(todoBefore);
         toggleTodo(todoBefore)
     ).toEqual(todoAfter)
 }
-
-testToggleTodo();
-console.log('All tests passed');
