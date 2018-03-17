@@ -1,0 +1,12 @@
+{
+    "postgresql": {        
+        "user": "postgres",
+        "password": "Garrafeira!2007",
+        "database": "fusionpbx",
+        "host": "localhost",
+        "port": 5432,                       
+        "max": 20,
+        "idleTimeoutMillis": 30000,
+        "connectionTimeoutMillis": 20000
+    }   
+}  

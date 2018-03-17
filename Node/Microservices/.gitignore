@@ -1,0 +1,11 @@
+nbproject/
+.idea/
+node_modules/
+*/fscloud/phpapi/configurations/
+
+*.log*
+*.bin
+*.zz
+*.rom
+*.pyc
+*.swp
